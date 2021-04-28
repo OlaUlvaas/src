@@ -1,6 +1,6 @@
 package se.lexicon.pet_clinic.repository;
 
-public interface PetTypeRepository {
-    // todo: implement basic CRUD
+public interface PetTypeRepository extends CrudRepository <PetType, Integer>{
+    // todo: implement basic CRUD // OK
 
 }
